@@ -17,7 +17,7 @@ const DefaultGreetingText = () => {
         <Label className="text-white text-3xl font-bold">{getGreeting()}</Label>
       </div>
 
-      <Label className="text-sm">
+      <Label className="text-sm text-center">
         I am your personal intelligent assistant HatchProof. How can I assist
         you today?
       </Label>
