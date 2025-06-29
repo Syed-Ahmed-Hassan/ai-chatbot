@@ -69,30 +69,6 @@ export const handleAutomateTranslate = async (
 
       return updatedMessages;
     });
-
-    // const { value, done: doneReading } = await reader.read();
-    // done = doneReading;
-    // const chunkValue = decoder.decode(value);
-    // const words = chunkValue.split(/\s+/);
-
-    // for (let word of words) {
-    //   output += word + " ";
-    //   setConversationMessages((prevMessages) => {
-    //     const updatedMessages = [...prevMessages];
-    //     const lastMessageIndex = updatedMessages.length - 1;
-
-    //     if (lastMessageIndex >= 0) {
-    //       updatedMessages[lastMessageIndex] = {
-    //         ...updatedMessages[lastMessageIndex],
-    //         output: output.trim(),
-    //       };
-    //     }
-
-    //     return updatedMessages;
-    //   });
-
-    //   await new Promise((resolve) => setTimeout(resolve, 100));
-    // }
   }
 
   setUserInput("");
