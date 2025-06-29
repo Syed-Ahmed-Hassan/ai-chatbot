@@ -8,7 +8,7 @@ export default function ResponseBox({
   loading,
 }: Omit<ResponseBoxProps, "conversationId">) {
   return (
-    <div className="flex flex-1 overflow-auto">
+    <div className="flex flex-1 overflow-auto w-full max-w-full min-w-0">
       {conversationMessages.length === 0 ? (
         <DefaultScreen />
       ) : (

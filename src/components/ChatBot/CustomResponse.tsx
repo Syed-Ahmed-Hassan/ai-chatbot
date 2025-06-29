@@ -21,7 +21,7 @@ export default function CustomResponse({
   }, [conversationMessages, loading]);
 
   return (
-    <div className="flex flex-col p-4 gap-4 w-full">
+    <div className="flex flex-col p-2 md:p-4 gap-4 w-full max-w-full">
       {conversationMessages?.map((value, index) => (
         <React.Fragment key={index}>
           <UserPrompt val={value?.input} />
